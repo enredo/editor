@@ -1,4 +1,21 @@
+const loader = require('monaco-loader')
+const EnredoMonacoConfig = require('./enredo.syntax-config')
+
 document.addEventListener('DOMContentLoaded', event => {
+  loader().then(monaco => {
+    monaco.languages.register({
+      id: 'enredo',
+      aliases: ['Enredo', 'enr']
+    })
+
+    monaco.languages.setMonarchTokensProvider('enredo', EnredoMonacoConfig)
+
+    monaco.editor.create(element('#container'), {
+      language: 'enredo',
+      theme: 'vs'
+    })
+  })
+
   const element = (selector) => {
     return document.querySelector(selector)
   }
@@ -16,6 +33,5 @@ document.addEventListener('DOMContentLoaded', event => {
     }
   }
 
-  element('#execFile').addEventListener('click', runFile)
-  element('#editor').addEventListener('keydown', onKeyDown)
+  element('#container').addEventListener('keydown', onKeyDown)
 })

@@ -9,8 +9,8 @@
     "test": "standard --fix"
   },
   "dependencies": {
-    "ace-builds": "^1.2.9",
-    "electron": "^1.7.9"
+    "electron": "^1.7.9",
+    "monaco-loader": "^0.8.2"
   },
   "devDependencies": {
     "standard": "^10.0.3"

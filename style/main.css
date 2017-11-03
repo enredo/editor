@@ -3,7 +3,7 @@ body {
   overflow: hidden;
 }
 
-#editor {
+#container {
   margin: 0;
   position: absolute;
   top: 0;
