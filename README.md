@@ -10,7 +10,7 @@ Editor de texto preparado para desenvolvimento e execução de scripts da lingua
 </p>
 
 ### Como contribuir?
-É simples, [cadastre issues ou pegue alguma para desenvolver](https://github.com/enredo/editor/issues). Toda ajuda é bem vinda.
+É simples, [cadastre issues ou pegue alguma para desenvolver](https://github.com/enredo/editor/issues). Toda ajuda é bem vinda, confira [os outros repositórios](https://github.com/enredo) envolvidos.
 
 ### Iniciando desenvolvimento
 >$ git clone https://github.com/enredo/editor.git
