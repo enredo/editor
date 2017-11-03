@@ -20,6 +20,6 @@ Editor de texto preparado para desenvolvimento e execução de scripts da lingua
 
 
 
->$ npm i
+
 
 
